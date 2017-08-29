@@ -1,0 +1,23 @@
+{
+  "name": "whatsthetea",
+  "version": "1.0.0",
+  "description": "Tea: A simple social sharing app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Anthony Ponce",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "path": "^0.12.7",
+    "vue": "^2.4.2",
+    "vue-loader": "^13.0.4",
+    "vuex": "^2.4.0"
+  }
+}
